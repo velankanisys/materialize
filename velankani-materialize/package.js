@@ -1,10 +1,10 @@
 // package metadata file for Meteor.js
 
 Package.describe({
-  name: 'materialize:materialize',  // http://atmospherejs.com/materialize/materialize
-  summary: 'Materialize (official): A modern responsive front-end framework based on Material Design',
+  name: 'velankani:materialize',  // http://atmospherejs.com/materialize/materialize
+  summary: 'A fork of Materialize (official): A modern responsive front-end framework based on Material Design with fixes',
   version: '0.97.3',
-  git: 'https://github.com/Dogfalo/materialize.git'
+  git: 'https://github.com/velankanisys/materialize.git'
 });
 
 Package.onUse(function (api) {
@@ -37,7 +37,7 @@ Package.onUse(function (api) {
   ];
 
   addAssets(api, assets);
-  
+
   api.addFiles([
     'dist/js/materialize.js',
     'dist/css/materialize.css'
